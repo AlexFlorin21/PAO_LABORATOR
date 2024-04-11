@@ -47,7 +47,7 @@ public class Liga {
         }
     }
 
-    // Sortează echipele în funcție de numărul total de puncte
+    // Sorteaza echipele în funcție de numarul total de puncte
     public void sorteazaEchipe() {
         Collections.sort(echipe, new Comparator<Echipa>() {
             @Override

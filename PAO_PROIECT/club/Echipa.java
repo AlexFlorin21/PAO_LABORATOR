@@ -10,7 +10,7 @@ public class Echipa {
     private int infrangeri;
     private int egaluri;
 
-    // Constructor
+
     public Echipa(String nume, Antrenor antrenor) {
         this.nume = nume;
         this.antrenor = antrenor;
@@ -20,7 +20,7 @@ public class Echipa {
         this.egaluri = 0;
     }
 
-    // Getteri și Setteri
+
     public String getNume() {
         return nume;
     }
@@ -65,7 +65,6 @@ public class Echipa {
         this.egaluri = egaluri;
     }
 
-    // Metode specifice
     public void adaugaJucator(Jucator jucator) {
         this.jucatori.add(jucator);
     }

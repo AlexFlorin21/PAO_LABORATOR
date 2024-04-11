@@ -38,14 +38,7 @@ public class Antrenor extends Persoana {
         return echipeAntrenate;
     }
 
-    public void setEchipeAntrenate(List<String> echipeAntrenate) {
-        this.echipeAntrenate = echipeAntrenate;
-    }
 
-    // Metode specifice
-    public void adaugaEchipaAntrenata(String echipa) {
-        echipeAntrenate.add(echipa);
-    }
 
     @Override
     public String toString() {

@@ -6,7 +6,6 @@ public abstract class Persoana {
     protected String nationalitate;
     protected char gen;
 
-    // Constructor
 
     public Persoana() {
     }

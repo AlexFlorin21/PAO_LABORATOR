@@ -41,7 +41,6 @@ public class Jucator extends Persoana {
         this.statistici = statistici;
     }
 
-    // Metoda toString() suprascrisă
     @Override
     public String toString() {
         return super.toString() + ", Pozitie: " + pozitie + ", Numar Tricou: " + numarTricou + ", Statistici: " + statistici.toString();
